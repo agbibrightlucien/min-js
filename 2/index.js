@@ -15,6 +15,8 @@ function check() {
     else {
         alert("The string is not a palindrome.");
     }    
+
+    input.value = ""; // Clear the input field after checking
     
 
 }
